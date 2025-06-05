@@ -1,0 +1,226 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+.head{
+  text-align: left;
+}
+.btn{
+  
+  background: none;
+  padding: 10px 10px 10px 10px;
+  font-size: 30px;
+  font-family: 'Times New Roman';
+  cursor: pointer;
+  margin: 1px;
+  margin-bottom: 5px;
+  transition: 0.8s;
+  width: fit-content;
+  padding: 0px 5px;
+  margin-left:10px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5{
+  color: #001b3a;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover{
+  color: #ffffff;
+  border:1px solid #3498db;
+  background-color: #090d46;
+}
+
+
+.logo {
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.navbar .btnLogin-popup {
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar .btnLogin-popup::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    opacity: .85;
+}
+
+  #Event {
+    min-height: 120vh;
+    background: url('event.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #Event h2 {
+    font-size: 70px;
+    padding: 70px 30px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .service-card {
+    color: #000000;
+    padding: 20px 30px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: inline-block;
+    margin: 20px;
+    width: 450px;
+    height: 650px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .service-card-content {
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .service-card-content h3 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .service-card-content p {
+    font-size: 30px;
+
+  }
+  
+  .service-actions {
+    margin-top: 20px;
+  }
+  
+  .book-btn,
+  .add-to-cart-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 26px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 1px solid #ffffff;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover,
+  .add-to-cart-btn:hover {
+    background-color: #555;
+  }
+  .wrapper {
+    padding: 40px 20px;
+    position: absolute;
+    top:150px;
+    right:650px;
+    width:600px;
+    height:400px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+
+
+  }
+
+  #service-details {
+    min-height: 120vh;
+    background: url('services_details.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #service-details h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .service-details-container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .service-details-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-details-container p {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .service-actions {
+    margin-top: 100px;
+  }
+  
+  .book-btn,
+  .close-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 26px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 1px solid #ffffff;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover,
+  .close-btn:hover {
+    background-color: #FF6000;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

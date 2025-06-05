@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Events</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="event.css">
+</head>
+<body>
+  <header class="head">
+    <h1 style="background-color:rgb(74, 148, 233) ;">
+        <label  id="logo">FlyFest</label>
+        &nbsp
+        <a class="btn btn1" href="index.html">Search</a>
+        <a class="btn btn2" href="event.html">Events</a>
+        <a class="btn btn3" href="result.html">Results</a>
+    </h1>
+</header>
+
+  <section id="Event">
+    <h2>Our Events</h2>
+    <div class="service-card" onclick="redirectToServiceDetails('Event 1')">
+      <img src="event1.jpg" alt="event 1">
+      <div class="service-card-content">
+        <h3>Sky Diving</h3>
+        <p>Skydiving is an exhilarating freefall from a plane, offering adrenaline, breathtaking views, and an unforgettable rush of excitement.</p>
+      </div>
+    </div>
+    <div class="service-card" onclick="redirectToServiceDetails('Event 2')">
+      <img src="event2.png" alt="event 2">
+      <div class="service-card-content">
+        <h3>Water Sports</h3>
+        <p>Water sports offer thrilling activities like surfing, kayaking, and snorkeling, combining adventure, fitness, and fun in aquatic environments.</p>
+      </div>
+    </div>
+    <div class="service-card" onclick="redirectToServiceDetails('Event 3')">
+      <img src="event3.png" alt="event 3">
+      <div class="service-card-content">
+        <h3>Paragliding</h3>
+        <p>
+            Paragliding is a peaceful yet exhilarating adventure, gliding through the air, providing stunning vistas and an incredible feeling of liberation.</p>
+
+      </div>
+    </div><div class="service-card" onclick="redirectToServiceDetails('Event 4')">
+      <img src="event4.png" alt="event 4">
+      <div class="service-card-content">
+        <h3>Cruise</h3>
+        <p>A cruise offers luxurious travel, combining relaxation, entertainment, and exploration, with breathtaking ocean views and diverse destinations.</p>
+      </div>
+    </div><div class="service-card" onclick="redirectToServiceDetails('Event 5')">
+      <img src="event5.png" alt="Event 5">
+      <div class="service-card-content">
+        <h3>Boating</h3>
+        <p>A jungle safari is an adventurous journey through wilderness, offering wildlife sightings, natural beauty, and thrilling exploration.</p>
+      </div>
+    </div><div class="service-card" onclick="redirectToServiceDetails('Event 6')">
+      <img src="event6.png" alt="Event 6">
+      <div class="service-card-content">
+        <h3>Dessert Saffari</h3>
+        <p>A desert safari offers thrilling dune rides, camel trekking, cultural experiences, and mesmerizing sunsets in a vast, sandy landscape.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; FlyFest</p>
+  </footer>
+
+  <script src="services.js"></script>
+</body>
+</html>
